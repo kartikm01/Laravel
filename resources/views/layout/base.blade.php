@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>@yield("title")</title>
 
     <!-- Bootstrap -->
@@ -16,12 +15,6 @@
 	<link href="css/prettyPhoto.css" rel="stylesheet"> 
 	<link href="css/style.css" rel="stylesheet">
 	
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
@@ -43,11 +36,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="menu">
 						<ul class="nav navbar-nav navbar-right">
-							  <li><a href="{{ url("/home") }}">Home</a></li>
-							  <li><a href="{{ url("/about") }}">About Us</a></li>
-							  <li><a href="{{ url("/portfolio") }}">Portfolio</a></li>
-							  <li><a href="{{ url("/features") }}">Features</a></li>				                                                                  								  
-							  <li><a href="{{ url("/contact") }}">Contact</a></li>
+							  <li><a href="#">Home</a></li>
+							  <li><a href="#">About Us</a></li>
+							  <li><a href="#">Portfolio</a></li>
+							  <li><a href="#">Features</a></li>				                                                                  								  
+							  <li><a href="#">Contact</a></li>
 						</ul>
 					</div>
 					<!-- /.Navbar-collapse -->		 
