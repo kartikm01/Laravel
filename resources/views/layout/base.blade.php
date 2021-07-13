@@ -36,11 +36,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="menu">
 						<ul class="nav navbar-nav navbar-right">
-							  <li><a href="#">Home</a></li>
-							  <li><a href="#">About Us</a></li>
-							  <li><a href="#">Portfolio</a></li>
-							  <li><a href="#">Features</a></li>				                                                                  								  
-							  <li><a href="#">Contact</a></li>
+							  <li><a href="{{ url("/home") }}">Home</a></li>
+							  <li><a href="{{ url("/about") }}">About Us</a></li>
+							  <li><a href="{{ url("/portfolio") }}">Portfolio</a></li>
+							  <li><a href="{{ url("/features") }}">Features</a></li>				                                                                  								  
+							  <li><a href="{{ url("/contact") }}">Contact</a></li>
 						</ul>
 					</div>
 					<!-- /.Navbar-collapse -->		 
